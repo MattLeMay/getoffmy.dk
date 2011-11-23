@@ -1,7 +1,7 @@
 <html> 
 
 <head> 
-<title>GET OFF MY DICK</title>
+<title>GET OFF MY DICK, <?php echo strtoupper(str_replace(array("-", "_"), " ", $_GET["thing"])); ?></title>
 
 <script type="text/javascript">
 
